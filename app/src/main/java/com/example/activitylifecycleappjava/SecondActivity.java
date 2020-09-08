@@ -16,6 +16,9 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
+        message = " onCreate() called";
+        Toast.makeText(this, AC + message, TL).show();
     }
 
     @Override
